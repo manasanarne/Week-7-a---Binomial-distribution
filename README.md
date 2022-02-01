@@ -22,3 +22,7 @@ result<-chisq.test(f,p=pr,rescale.p=TRUE)
 print(result)
 tablevalue<-qchisq(.95, df=s)
 print(tablevalue)
+
+OUTPUT:-
+Table value is  12.59159
+
